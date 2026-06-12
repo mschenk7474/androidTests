@@ -65,6 +65,7 @@ dependencies {
     testImplementation("androidx.test.ext:junit:1.1.5")
     testImplementation("androidx.fragment:fragment-testing:1.5.7")
     testImplementation("androidx.navigation:navigation-testing:$navVersion")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.9.0")
 
     val espressoVersion = "3.5.1"
     testImplementation("androidx.test.espresso:espresso-core:$espressoVersion")
